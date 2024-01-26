@@ -1,0 +1,55 @@
+.show-course
+{
+    margin-top:50px ;
+    padding: 0;
+    box-shadow: 10px 10px 10px ;
+    box-sizing: border-box;
+    height: 60vh;
+    border-radius: .75rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+@media(max-width : 800px)
+{
+    .show-course
+    {
+        width: 48% !important;
+    }
+}
+@media(max-width : 470px)
+{
+    .show-course
+    {
+        width: 100% !important;
+    }
+}
+.show-course:hover
+{
+    animation: A .2s ;
+}
+@keyframes A 
+{
+ 0%
+ {
+    transform: translateX(0);
+ }   
+ 25%
+ {
+    transform: translateX(2%);
+
+ }
+ 50%
+ {
+    transform: translateX(0);
+
+ }
+ 75%
+ {
+    transform: translateX(-2%);
+
+ }
+ 100%
+ {
+    transform: translateX(0);
+ }   
+}

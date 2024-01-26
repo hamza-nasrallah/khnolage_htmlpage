@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+}
+.table>:not(caption)>*>* {
+    padding: 2.5rem .5rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+.car-table
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    transition: 2s all;
+    z-index: 1;
+    transform: translateX(0%);
+}
+h4
+{
+    display: inline-block;
+}
+
+.add-del-btn
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.Add-Delete-btn
+{
+    margin-top: 10px;
+    width:130px;
+}
+.car-img
+{
+    width: 10px;
+}
+td
+{
+text-align: center;
+}

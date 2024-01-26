@@ -1,0 +1,168 @@
+style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nuosu SIL', serif;
+  font-family: 'PT Sans', sans-serif;
+}
+/*navbar*/
+.navbar {
+  background-color: #f0efeb;
+  height: 55px;
+}
+.navbar-nav {
+  margin-left: 10px;
+}
+.nav-item {
+  margin-left: 40px;
+}
+.nav-link {
+  font-weight: 450;
+  font-size: 16px;
+  color: #78797a;
+}
+.fa-search {
+  color: #001f54;
+}
+#btn {
+  background-color: #001f54;
+  font-weight: 450;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+/*header*/
+.header {
+  padding: 100px 150px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  max-width: 700px;
+}
+.title {
+  font-family: 'Nuosu SIL';
+  font-size: 3em;
+  color: #001f54;
+  font-weight: bold;
+}
+.para {
+  padding-bottom: 100px;
+  margin-top: 15px;
+  font-family: 'Nuosu SIL';
+  font-size: 1.15em;
+  color: #78797a;
+  line-height: 30px;
+}
+@media (max-width: 991px) {
+  .header {
+    padding: 150px 20px 20px;
+    flex-direction:column-reverse;
+  }
+  .title {
+    font-size: 2em;
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    padding: 10px 20px 20px !important;
+    font-size: 15px !important;
+  }
+.image {
+    margin-top: 30px;
+  }
+}
+
+/*course + teacher*/
+.sub-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #001f54;
+}
+.card-img-top {
+  height: 300px;
+}
+@media (max-width: 960px) {
+  .card-img-top {
+    height: 230px;
+  }
+  .card {
+    width: 230px;
+    height: 350px;
+  }
+  .card-title {
+    font-size: 21px;
+  }
+  .teacher-name {
+    font-size: 14px;
+  }
+  .card-text {
+    font-size: medium;
+  }
+}
+@media (max-width: 775px) {
+  .card-img-top {
+    height: 200px;
+  }
+  .card {
+    width: 160px;
+    height: 320px;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .teacher-name {
+    font-size: 10px;
+  }
+  .card-text {
+    font-size: small;
+  }
+}
+.swiper-button-next {
+  margin-right: 10px;
+  font-weight: bold;
+  transition: 0.3s all;
+}
+.swiper-button-prev {
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.3s all;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  color: #78797a;
+}
+
+/*footer*/
+.footer {
+  padding: 20px 0;
+  background: #001f54;
+  padding-bottom: 0px;
+  margin-top: 100vh;
+  height: 130px;
+}
+.social {
+  text-align: center;
+  color: #ffffff;
+}
+.social a {
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 30px;
+  color: #ffffff;
+}
+.social a:hover {
+  opacity: 1;
+  color: #d7cfcf;
+}
+.copyright {
+  margin-top: 25px;
+  text-align: center;
+  font-weight: small;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color:#ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
