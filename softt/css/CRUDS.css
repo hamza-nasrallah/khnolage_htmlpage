@@ -1,0 +1,62 @@
+.head
+{
+    height: 100vh;
+    align-items: center;
+}
+.Courses-CRUD
+{
+    text-decoration: none;
+    border-radius: 1rem;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imgs/img2.jpg);
+}
+.Teacher-CRUD
+{
+    text-decoration: none;
+    border-radius: 1rem;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imgs/img3.png);
+}
+.Student-CRUD
+{
+    text-decoration: none;
+    border-radius: 1rem;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imgs/img5.png);
+}
+.courses-title
+{
+    color: white;
+    margin-bottom: 30px;
+}
+@media (max-width :900px) {
+    .cruds-col
+    {
+        flex-direction: column;
+    }
+    .Student-CRUD  
+    {
+        width: 100% !important ;
+    }
+    .Teacher-CRUD
+    {
+        width: 100% !important;
+    }
+    .Courses-CRUD
+    {
+        width: 100% !important ;
+    }
+}
+.card-img-top
+{
+    height: 271px;
+}

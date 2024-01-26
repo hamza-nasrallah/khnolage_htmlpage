@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'PT Sans', sans-serif;
+}
+/*navbar*/
+.navbar {
+    background-color: #f1faee;
+}
+.navbar-nav {
+margin-left: 10px;
+}
+.nav-item {
+margin-left: 40px;
+}
+.nav-link {
+font-weight: 450;
+font-size: 16px;
+color: #78797a;
+}
+.fa-search, .form-control {
+color: #1e4179;
+font-weight: 450;
+font-size: 16px;
+border-radius: 4px;
+}
+#btn {
+background-color: #1e4179;
+font-weight: 450;
+font-size: 16px;
+color: #ffffff;
+border-radius: 5px;
+}
+a {
+    text-decoration: none;
+}
+section {
+    padding: 10rem 0;
+}
+.heading {
+    font-size: 4rem;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #f46036;
+}
+.card-wrapper {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.card {
+    width: 30rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    box-shadow: .5rem .5rem 3rem #d2dacf;
+    border-radius: 5px;
+}
+.card-img {
+    background-color: #f1faee;
+    width: 100%;
+    height: 23rem;
+    object-fit: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+.profile-img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -11rem;
+    z-index: 10000;
+    border: 9px solid rgb(255, 255, 255);
+}
+.card-title {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    margin: 1.5rem 0;
+}
+.card-text {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    text-justify: inter-word;
+    font-size: 13px;
+    padding: 25px;
+}
+.social-media {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-top: .5rem;
+    padding-top: 50px;
+}
+.social-media i {
+    font-size: 3rem;
+    transition: color .5s;
+}
+.fa-linkedin-square, .fa-github-square, .fa-envelope-square {
+    color: #535651;
+}
+.fa:hover {
+    color: #858881;
+    transition: color .5s;
+}
+@media screen and (min-width: 700px) {
+    .card-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        margin: 2rem;
+        transition: opacity .5s;
+    }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+ 
+}

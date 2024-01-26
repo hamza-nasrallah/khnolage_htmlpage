@@ -1,0 +1,46 @@
+.par{
+
+    width: 390px;
+   
+}
+.ic 
+{
+    margin-right: auto;
+   padding-left: 10px;
+    margin-top: 10px;
+   font-size: small;
+    
+}
+.icon 
+{
+    color: #c28135;
+    margin-left: auto;
+   background-color: aliceblue;
+    font-size: 35px;
+    margin-bottom: 16px;
+    text-align: center;
+   width: 60px;
+   border-radius: 300px;
+   padding-top: 10px;
+}
+.head
+{
+background-color: #1e4179;
+ color: aliceblue; 
+   
+}
+.container{
+ 
+    background-color: #1e4179;
+   width: 80%; 
+text-align: center;  
+ margin: auto;
+       
+    } 
+    .search{
+ 
+   
+       width: 60%; 
+    
+           
+        } 
